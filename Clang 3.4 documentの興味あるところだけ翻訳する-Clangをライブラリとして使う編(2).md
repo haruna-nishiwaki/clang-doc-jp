@@ -16,42 +16,41 @@ Clangが使われる典型的なアプリケーションのカテゴリ：
 もしClangが使われているプロジェクトやツールを知っていたら（あるいは書いたのなら！）、以下に追加するので Clang's development discussion mailing list にメールを送ってください（またはあなたが既にClangのコンとリビュータなら直接以下に追加して頂いても結構です）。このページの主な目的は開発者の手助けをするような例の提供なので、ソースコードを閲覧できることが必要です。
 
 ## プロジェクトとツール集
-https://github.com/Andersbakken/rtags/
-**RTags**は、C/C++コードのインデックスを作り、参照やシンボル名、補完情報のインメモリデータベースを永続的に保持するクライアント/サーバ用のアプリケーションです。
-
-
-http://rprichard.github.com/sourceweb/
-C/C++コードのインデキサー、ナビゲータ
-
-https://github.com/etaoins/qconnectlint
-**qconnectlint**は、QObject::connectで生成されたシグナルとスロット接続の静的一貫性証明するツールです。
-
-https://github.com/woboq/woboq_codebrowser
-**The Weboq Code Browser**は、C/C++プロジェクト向けウェブベースのコードブラウザです。サンプルは http://code.woboq.org/ をチェックしてください！
-
-https://github.com/mozilla/dxr
-**DXR**は、コンパイラによる静的解析データ収集を使ったソースコードクロスリファレンスツールです。
-
-https://github.com/eschulte/clang-mutate
-このツールはC言語ソースファイルの操作の数を実行します。
-
-https://github.com/gmarpons/Crisp
-LLVM/Clang用のコーディングルールバリデーション・アドオンです。CrispのルールはPrologで書きます。新しいルールを書くことが簡単なハイレベルなDSLは開発中です。おそらくCRISPと呼ばれることになりますが、これはCoding Rules in Sugared Prologのアナグラムです。
-
-https://github.com/drothlis/clang-ctags
-C++ソースコード用のタグファイルジェネレータです。
-
-https://github.com/exclipy/clang_indexer
-これはC/C++用のLibClangライブラリをベースにしたインデキサです。
-
-https://github.com/holtgrewe/linty
-**Linty**は、PythonとLibClangによるC/C++スタイルチェッカです。
-
-https://github.com/axw/cmonster
-**cmonster**はClangのC++ パーサのためのPythonラッパです。
-
-https://github.com/rizsotto/Constantine
-**Constantine**は、Clang Pluginを学ぶための小さいプロジェクトです。偽の（おそらく適当なという意味の）const解析を実装しています。constなしで変数が宣言されたときに注意を生成します。
-
-https://github.com/jessevdk/cldoc
+https://github.com/Andersbakken/rtags/  
+**RTags**は、C/C++コードのインデックスを作り、参照やシンボル名、補完情報のインメモリデータベースを永続的に保持するクライアント/サーバ用のアプリケーションです。  
+  
+http://rprichard.github.com/sourceweb/  
+C/C++コードのインデキサー、ナビゲータ  
+  
+https://github.com/etaoins/qconnectlint  
+**qconnectlint**は、QObject::connectで生成されたシグナルとスロット接続の静的一貫性証明するツールです。  
+  
+https://github.com/woboq/woboq_codebrowser  
+**The Weboq Code Browser**は、C/C++プロジェクト向けウェブベースのコードブラウザです。サンプルは http://code.woboq.org/ をチェックしてください！  
+  
+https://github.com/mozilla/dxr  
+**DXR**は、コンパイラによる静的解析データ収集を使ったソースコードクロスリファレンスツールです。  
+  
+https://github.com/eschulte/clang-mutate  
+このツールはC言語ソースファイルの操作の数を実行します。  
+  
+https://github.com/gmarpons/Crisp  
+LLVM/Clang用のコーディングルールバリデーション・アドオンです。CrispのルールはPrologで書きます。新しいルールを書くことが簡単なハイレベルなDSLは開発中です。おそらくCRISPと呼ばれることになりますが、これはCoding Rules in Sugared Prologのアナグラムです。  
+  
+https://github.com/drothlis/clang-ctags  
+C++ソースコード用のタグファイルジェネレータです。  
+  
+https://github.com/exclipy/clang_indexer  
+これはC/C++用のLibClangライブラリをベースにしたインデキサです。  
+  
+https://github.com/holtgrewe/linty  
+**Linty**は、PythonとLibClangによるC/C++スタイルチェッカです。  
+  
+https://github.com/axw/cmonster  
+**cmonster**はClangのC++ パーサのためのPythonラッパです。  
+  
+https://github.com/rizsotto/Constantine  
+**Constantine**は、Clang Pluginを学ぶための小さいプロジェクトです。偽の（おそらく適当なという意味の）const解析を実装しています。constなしで変数が宣言されたときに注意を生成します。  
+  
+https://github.com/jessevdk/cldoc  
 **cldoc**はClangをベースにしたC/C++のドキュメントジェネレータです。cldocはC/C++のソフトウェアドキュメントを書かなければならないという問題を解決できる、近代的で（作業に）割り込まない強気なアプローチです。
